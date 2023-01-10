@@ -59,6 +59,7 @@ class _HomePageUiState extends ConsumerState<HomePageUi> {
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       floatingActionButton: FloatingActionButton(
+        backgroundColor: pinkClr,
         onPressed: (() {
           // Add tasks
           Navigator.push(context,
